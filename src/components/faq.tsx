@@ -53,7 +53,7 @@ const FAQ = () => {
       <Heading fontWeight='extrabold' fontSize={['2xl', '3xl', '5xl']} textAlign='center'>
         Frequently Asked Questions
       </Heading>
-      <Text textAlign='center' mt={10} color='gray.600'>
+      <Text textAlign='center' mt={10} marginInline={3} color='gray.600'>
         If you have any questions not answered in the FAQ please don&apos;t hesitate to{' '}
         <Link as={NextLink} color='blue.400' href='#'>
           contact us

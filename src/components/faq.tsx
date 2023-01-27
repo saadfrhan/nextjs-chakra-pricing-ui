@@ -14,6 +14,7 @@ const AccItem = ({
     borderRadius='xl'
     border='1px'
     borderColor='gray.200'
+    mr={3} ml={3}
   >
     {({ isExpanded }) => (
       <>
@@ -49,10 +50,10 @@ const AccItem = ({
 const FAQ = () => {
   return (
     <Flex justifyContent='center' flexDirection='column' mt={10}>
-      <Heading fontWeight='extrabold' fontSize={['3xl', '3xl', '5xl']} textAlign='center'>
+      <Heading fontWeight='extrabold' fontSize={['2xl', '3xl', '5xl']} textAlign='center'>
         Frequently Asked Questions
       </Heading>
-      <Text fontSize='2xl' textAlign='center' mt={10} color='gray.600'>
+      <Text textAlign='center' mt={10} color='gray.600'>
         If you have any questions not answered in the FAQ please don&apos;t hesitate to{' '}
         <Link as={NextLink} color='blue.400' href='#'>
           contact us
@@ -61,9 +62,8 @@ const FAQ = () => {
       </Text>
       <Accordion
         borderRadius='xl'
-        maxW='994px'
+        maxW='964px'
         w='100%'
-        margin='auto'
         marginBlock='10'
         overflow='hidden'
         textAlign='center'

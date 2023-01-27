@@ -65,6 +65,7 @@ const FAQ = () => {
         maxW='964px'
         w='100%'
         marginBlock='10'
+        alignSelf='center'
         overflow='hidden'
         textAlign='center'
       >

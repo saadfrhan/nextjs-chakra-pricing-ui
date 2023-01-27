@@ -1,4 +1,4 @@
-# Pricing UI using Chakra-UI, and Next.js 13
+# Pricing UI
 
 ## Introduction
 
